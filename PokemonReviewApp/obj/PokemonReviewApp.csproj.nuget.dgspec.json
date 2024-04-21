@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mohammedyounes/Projects/PokemonReviewApp/PokemonReviewApp/PokemonReviewApp.csproj": {}
+    "/Users/mohammedyounes/PokemonReviewer/PokemonReviewApp/PokemonReviewApp.csproj": {}
   },
   "projects": {
-    "/Users/mohammedyounes/Projects/PokemonReviewApp/PokemonReviewApp/PokemonReviewApp.csproj": {
+    "/Users/mohammedyounes/PokemonReviewer/PokemonReviewApp/PokemonReviewApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mohammedyounes/Projects/PokemonReviewApp/PokemonReviewApp/PokemonReviewApp.csproj",
+        "projectUniqueName": "/Users/mohammedyounes/PokemonReviewer/PokemonReviewApp/PokemonReviewApp.csproj",
         "projectName": "PokemonReviewApp",
-        "projectPath": "/Users/mohammedyounes/Projects/PokemonReviewApp/PokemonReviewApp/PokemonReviewApp.csproj",
+        "projectPath": "/Users/mohammedyounes/PokemonReviewer/PokemonReviewApp/PokemonReviewApp.csproj",
         "packagesPath": "/Users/mohammedyounes/.nuget/packages/",
-        "outputPath": "/Users/mohammedyounes/Projects/PokemonReviewApp/PokemonReviewApp/obj/",
+        "outputPath": "/Users/mohammedyounes/PokemonReviewer/PokemonReviewApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mohammedyounes/.nuget/NuGet/NuGet.Config"
@@ -39,6 +39,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"

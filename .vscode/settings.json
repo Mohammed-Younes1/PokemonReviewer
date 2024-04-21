@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "MySQL Local",
+            "database": "Pokemonreviewer",
+            "username": "root",
+            "password": "Mohammed",
+            "connectionTimeout": 300
+        }
+    ],
+    "dotnet.defaultSolution": "PokemonReviewApp.sln"
+}
