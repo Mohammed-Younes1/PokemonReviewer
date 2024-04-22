@@ -1,33 +1,31 @@
-﻿//using System;
-//using Microsoft.Data.SqlClient;
-//using MySql.Data.MySqlClient;
+﻿using System;
+using MySql.Data.MySqlClient;
 
+namespace PokemonReviewApp
+{
+    public class MySQL
+    {
+        static MySqlConnection con;
 
-//namespace PokemonReviewApp
-//{
-//    public class MySQL
-//	{
-//        static MySqlConnection con;
+        public static void Connect()
+        {
+            con = new MySqlConnection();
 
-//        public static void Connect(string user, string password)
-//        {
-//            con = new MySqlConnection();
-
-//            try
-//            {
-//                con.ConnectionString = "server = localhost; User Id = " + user + "; " +
-//                    "Persist Security Info = True; database = hello; Password = " + password;
-//                con.Open();
-//                Console.WriteLine("Succesfully connected!");
-
-//            }
-
-//            catch (Exception e)
-//            {
-//                Console.WriteLine("Not Successful! due to " + e.ToString());
-//            }
-//        }
-
-//    }
-//}
-
+            try
+            {
+                string connectionString = "Server=localhost;" +
+              "Database=Pokemonreviewer;" +
+              "Uid=root;" +
+              "Pwd=Mohammed;" + // Leave password empty
+              "SslMode=None;";// Set SSL mode to None
+                con.ConnectionString = connectionString;
+                con.Open();
+                Console.WriteLine("Successfully connected to MySQL database!");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Connection to MySQL database failed! Error: " + e.ToString());
+            }
+        }
+    }
+}
