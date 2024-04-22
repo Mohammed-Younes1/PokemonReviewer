@@ -127,3 +127,6 @@
 /Users/mohammedyounes/Projects/PokemonReviewer/PokemonReviewApp/obj/Debug/net6.0/PokemonReviewApp.csproj.CopyComplete
 /Users/mohammedyounes/Projects/PokemonReviewer/PokemonReviewApp/obj/Debug/net6.0/PokemonReviewApp.genruntimeconfig.cache
 /Users/mohammedyounes/Projects/PokemonReviewer/PokemonReviewApp/obj/Debug/net6.0/ref/PokemonReviewApp.dll
+/Users/mohammedyounes/Projects/PokemonReviewer/PokemonReviewApp/bin/Debug/net6.0/Humanizer.dll
+/Users/mohammedyounes/Projects/PokemonReviewer/PokemonReviewApp/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/mohammedyounes/Projects/PokemonReviewer/PokemonReviewApp/bin/Debug/net6.0/MySql.Data.dll
