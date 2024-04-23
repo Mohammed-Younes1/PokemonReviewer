@@ -178,6 +178,18 @@
           }
         }
       },
+      "Microsoft.EntityFrameworkCore.Tools/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
@@ -514,13 +526,13 @@
           }
         }
       },
-      "MySql.Data/6.8.8": {
+      "MySql.Data/6.2.5": {
         "type": "package",
         "compile": {
-          "lib/net45/MySql.Data.dll": {}
+          "lib/net20/mysql.data.dll": {}
         },
         "runtime": {
-          "lib/net45/MySql.Data.dll": {}
+          "lib/net20/mysql.data.dll": {}
         }
       },
       "Swashbuckle.AspNetCore/6.5.0": {
@@ -1121,6 +1133,30 @@
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.6.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/6.0.0": {
+      "sha512": "m9e6nFnkyRdKcrTFO8rl3ZihCIKrYdECw+fHZVbKz6TBMwKhih/N0sjPnNt0k7sZPvI8izKPkh1d+z4OR2qgXQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/6.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/_._",
+        "microsoft.entityframeworkcore.tools.6.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
@@ -1823,20 +1859,16 @@
         "version.txt"
       ]
     },
-    "MySql.Data/6.8.8": {
-      "sha512": "0kms5QTb5jXd6UXUsPSSZU40iTExT9Th99qLKu+o8iGftKPiYVKY+n2s6Fd6O5piCA85PyKU7xaUw5fMxbOEhw==",
+    "MySql.Data/6.2.5": {
+      "sha512": "UaLyfaGsXK4O68+GFTU9xulEdlXO0QMN/SCfFF6osKvJ1KZZ6O7lfirDyIcJeQ8z9g5EFT1KEvYt//mUlH51EA==",
       "type": "package",
-      "path": "mysql.data/6.8.8",
+      "path": "mysql.data/6.2.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "CHANGES",
-        "Readme.txt",
-        "content/app.config.transform",
-        "content/web.config.transform",
-        "lib/net40/MySql.Data.dll",
-        "lib/net45/MySql.Data.dll",
-        "mysql.data.6.8.8.nupkg.sha512",
+        "lib/net20-cf/mysql.data.cf.dll",
+        "lib/net20/mysql.data.dll",
+        "mysql.data.6.2.5.nupkg.sha512",
         "mysql.data.nuspec"
       ]
     },
@@ -2420,30 +2452,32 @@
       "Microsoft.EntityFrameworkCore >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
-      "MySql.Data >= 6.8.8",
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.0",
+      "MySql.Data >= 6.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
   "packageFolders": {
-    "/Users/mohammedyounes/.nuget/packages/": {}
+    "C:\\Users\\Mohammed\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mohammedyounes/Projects/PokemonReviewer/PokemonReviewApp/PokemonReviewApp.csproj",
+      "projectUniqueName": "C:\\Users\\Mohammed\\Documents\\GitHub\\PokemonReviewer\\PokemonReviewApp\\PokemonReviewApp.csproj",
       "projectName": "PokemonReviewApp",
-      "projectPath": "/Users/mohammedyounes/Projects/PokemonReviewer/PokemonReviewApp/PokemonReviewApp.csproj",
-      "packagesPath": "/Users/mohammedyounes/.nuget/packages/",
-      "outputPath": "/Users/mohammedyounes/Projects/PokemonReviewer/PokemonReviewApp/obj/",
+      "projectPath": "C:\\Users\\Mohammed\\Documents\\GitHub\\PokemonReviewer\\PokemonReviewApp\\PokemonReviewApp.csproj",
+      "packagesPath": "C:\\Users\\Mohammed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mohammed\\Documents\\GitHub\\PokemonReviewer\\PokemonReviewApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/mohammedyounes/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Mohammed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.315/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2456,6 +2490,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2476,9 +2515,15 @@
             "target": "Package",
             "version": "[6.0.0, )"
           },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
           "MySql.Data": {
             "target": "Package",
-            "version": "[6.8.8, )"
+            "version": "[6.0.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -2504,16 +2549,26 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
     {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "PokemonReviewApp depends on MySql.Data (>= 6.0.0) but MySql.Data 6.0.0 was not found. An approximate best match of MySql.Data 6.2.5 was resolved.",
+      "libraryId": "MySql.Data",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MySql.Data 6.8.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'MySql.Data 6.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "MySql.Data",
       "targetGraphs": [
         "net6.0"
