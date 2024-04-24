@@ -197,3 +197,5 @@ C:\Users\Mohammed\Documents\GitHub\PokemonReviewer\PokemonReviewApp\obj\Debug\ne
 C:\Users\Mohammed\Documents\GitHub\PokemonReviewer\PokemonReviewApp\obj\Debug\net6.0\PokemonReviewApp.pdb
 C:\Users\Mohammed\Documents\GitHub\PokemonReviewer\PokemonReviewApp\obj\Debug\net6.0\PokemonReviewApp.genruntimeconfig.cache
 C:\Users\Mohammed\Documents\GitHub\PokemonReviewer\PokemonReviewApp\obj\Debug\net6.0\ref\PokemonReviewApp.dll
+C:\Users\Mohammed\Documents\GitHub\PokemonReviewer\PokemonReviewApp\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Mohammed\Documents\GitHub\PokemonReviewer\PokemonReviewApp\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
