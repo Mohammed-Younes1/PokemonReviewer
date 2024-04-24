@@ -110,6 +110,7 @@ namespace PokemonReviewApp
                             Country = new Country()
                             {
                                 Name = "Millet Town"
+
                             }
                         }
                     }

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Mohammed\\Documents\\GitHub\\PokemonReviewer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D5A4678-9D4B-4E18-A32B-58E79E3D2D97}|PokemonReviewApp\\PokemonReviewApp.csproj|c:\\users\\mohammed\\documents\\github\\pokemonreviewer\\pokemonreviewapp\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D5A4678-9D4B-4E18-A32B-58E79E3D2D97}|PokemonReviewApp\\PokemonReviewApp.csproj|solutionrelative:pokemonreviewapp\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D5A4678-9D4B-4E18-A32B-58E79E3D2D97}|PokemonReviewApp\\PokemonReviewApp.csproj|c:\\users\\mohammed\\documents\\github\\pokemonreviewer\\pokemonreviewapp\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5A4678-9D4B-4E18-A32B-58E79E3D2D97}|PokemonReviewApp\\PokemonReviewApp.csproj|solutionrelative:pokemonreviewapp\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D5A4678-9D4B-4E18-A32B-58E79E3D2D97}|PokemonReviewApp\\PokemonReviewApp.csproj|c:\\users\\mohammed\\documents\\github\\pokemonreviewer\\pokemonreviewapp\\repository\\pokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5A4678-9D4B-4E18-A32B-58E79E3D2D97}|PokemonReviewApp\\PokemonReviewApp.csproj|solutionrelative:pokemonreviewapp\\repository\\pokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D5A4678-9D4B-4E18-A32B-58E79E3D2D97}|PokemonReviewApp\\PokemonReviewApp.csproj|c:\\users\\mohammed\\documents\\github\\pokemonreviewer\\pokemonreviewapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D5A4678-9D4B-4E18-A32B-58E79E3D2D97}|PokemonReviewApp\\PokemonReviewApp.csproj|solutionrelative:pokemonreviewapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D5A4678-9D4B-4E18-A32B-58E79E3D2D97}|PokemonReviewApp\\PokemonReviewApp.csproj|c:\\users\\mohammed\\documents\\github\\pokemonreviewer\\pokemonreviewapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6D5A4678-9D4B-4E18-A32B-58E79E3D2D97}|PokemonReviewApp\\PokemonReviewApp.csproj|solutionrelative:pokemonreviewapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Seed.cs",
-              "DocumentMoniker": "C:\\Users\\Mohammed\\Documents\\GitHub\\PokemonReviewer\\PokemonReviewApp\\Seed.cs",
-              "RelativeDocumentMoniker": "PokemonReviewApp\\Seed.cs",
-              "ToolTip": "C:\\Users\\Mohammed\\Documents\\GitHub\\PokemonReviewer\\PokemonReviewApp\\Seed.cs",
-              "RelativeToolTip": "PokemonReviewApp\\Seed.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAAwGsAAAAxAAAA",
+              "Title": "PokemonController.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\Documents\\GitHub\\PokemonReviewer\\PokemonReviewApp\\Controllers\\PokemonController.cs",
+              "RelativeDocumentMoniker": "PokemonReviewApp\\Controllers\\PokemonController.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\Documents\\GitHub\\PokemonReviewer\\PokemonReviewApp\\Controllers\\PokemonController.cs",
+              "RelativeToolTip": "PokemonReviewApp\\Controllers\\PokemonController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwB4AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T11:46:57.656Z",
+              "WhenOpened": "2024-04-23T14:08:40.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PokemonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mohammed\\Documents\\GitHub\\PokemonReviewer\\PokemonReviewApp\\Repository\\PokemonRepository.cs",
+              "RelativeDocumentMoniker": "PokemonReviewApp\\Repository\\PokemonRepository.cs",
+              "ToolTip": "C:\\Users\\Mohammed\\Documents\\GitHub\\PokemonReviewer\\PokemonReviewApp\\Repository\\PokemonRepository.cs",
+              "RelativeToolTip": "PokemonReviewApp\\Repository\\PokemonRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:49:51.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Mohammed\\Documents\\GitHub\\PokemonReviewer\\PokemonReviewApp\\appsettings.json",
-              "RelativeDocumentMoniker": "PokemonReviewApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\Mohammed\\Documents\\GitHub\\PokemonReviewer\\PokemonReviewApp\\appsettings.json",
-              "RelativeToolTip": "PokemonReviewApp\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-23T11:43:49.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Mohammed\\Documents\\GitHub\\PokemonReviewer\\PokemonReviewApp\\Program.cs",
               "RelativeDocumentMoniker": "PokemonReviewApp\\Program.cs",
               "ToolTip": "C:\\Users\\Mohammed\\Documents\\GitHub\\PokemonReviewer\\PokemonReviewApp\\Program.cs",
               "RelativeToolTip": "PokemonReviewApp\\Program.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAQwBMAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T11:36:23.251Z"
+              "WhenOpened": "2024-04-23T11:36:23.251Z",
+              "EditorCaption": ""
             }
           ]
         }
