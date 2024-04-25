@@ -14,28 +14,30 @@ namespace PokemonReviewApp.Controllers
         private readonly ICategoryRepository _categoryRepository;
         private readonly IMapper _mapper;
 
-        public CategoryController(ICategoryRepository categoryRepository,IMapper mapper)
+        public CategoryController(ICategoryRepository categoryRepository, IMapper mapper)
         {
             _categoryRepository = categoryRepository;
             _mapper = mapper;
         }
 
+
         [HttpGet]
         [ProducesResponseType(200, Type = typeof(IEnumerable<Category>))]
         public IActionResult GetCategories()
         {
-            var Categories = _mapper.Map<List<CategoryDto>>(_categoryRepository.GetCategories());
-            if (ModelState.IsValid)
-            {
+            var categories = _mapper.Map<List<CategoryDto>>(_categoryRepository.GetCategories());
+
+            if (!ModelState.IsValid)
                 return BadRequest(ModelState);
-            }
-           return Ok(Categories);
+
+            return Ok(categories);
         }
 
-        [HttpGet("{cagegoryId}")]
+
+        [HttpGet("{categoryId}")]
         [ProducesResponseType(200, Type = typeof(Category))]
         [ProducesResponseType(400)]
-        public IActionResult GetCatagory(int categoryId)
+        public IActionResult GetCategory(int categoryId)
         {
             if (!_categoryRepository.CategoryExist(categoryId))
             {
@@ -65,4 +67,4 @@ namespace PokemonReviewApp.Controllers
         }
 
     }
-} 
+}

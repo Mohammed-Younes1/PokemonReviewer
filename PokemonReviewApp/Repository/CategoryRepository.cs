@@ -19,7 +19,7 @@ namespace PokemonReviewApp.Repository
 
         public ICollection<Category> GetCategories()
         {
-           return _context.Categories.ToList();
+            return _context.Categories.ToList();
         }
 
         public Category GetCategory(int id)

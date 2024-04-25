@@ -25,7 +25,7 @@ namespace PokemonReviewApp.Controllers
         public IActionResult GetCountries()
         {
             var country = _mapper.Map<List<CountryDto>>(_countryRepository.GetCountries());
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
@@ -54,7 +54,7 @@ namespace PokemonReviewApp.Controllers
         [ProducesResponseType(400)]
         public IActionResult GetCountryByOfAnOwner(int ownerId)
         {
-            var country= _mapper.Map<CountryDto>(
+            var country = _mapper.Map<CountryDto>(
                 _countryRepository.GetCountryByOwner(ownerId));
             if (!ModelState.IsValid)
             {
