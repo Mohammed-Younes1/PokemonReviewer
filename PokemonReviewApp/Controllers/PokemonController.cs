@@ -79,5 +79,9 @@ namespace PokemonReviewApp.Controllers
 
         }
 
+        //[HttpGet]
+        //[ProducesResponseType(204)]
+        //[ProducesResponseType(400)]
+
     }
 }

@@ -39,7 +39,7 @@ namespace PokemonReviewApp
                         },
                         Owner = new Owner()
                         {
-                            Name = "Jack London",
+                            //Name = "Jack London",
                             FirstName = "Jack",
                             LastName = "London",
                             Gym = "Brocks Gym",
@@ -71,7 +71,7 @@ namespace PokemonReviewApp
                         },
                         Owner = new Owner()
                         {
-                            Name = "Harry Potter",
+                            //Name = "Harry Potter",
                             FirstName = "Harry",
                             LastName = "Potter",
                             Gym = "Mistys Gym",
@@ -103,7 +103,7 @@ namespace PokemonReviewApp
                         },
                         Owner = new Owner()
                         {
-                            Name = "Ash Ketchum",
+                            //Name = "Ash Ketchum",
                             FirstName = "Ash",
                             LastName = "Ketchum",
                             Gym = "Ashs Gym",
